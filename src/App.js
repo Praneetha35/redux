@@ -5,9 +5,9 @@ import { createStore } from 'redux'
 //declaring a state as empty array
 function rootReducer(state = [], action) { 
   switch (action.type) {   
-    case 'ADD ONE':  
+    case 'ADD ONE':     
       return state.concat('added one')
-    case 'SUBTRACT ONE':
+    case 'SUBTRACT ONE':  
       return state.concat('subtracted one')
     default:
       return state  

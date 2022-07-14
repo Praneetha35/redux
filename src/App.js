@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import { createStore } from 'redux'
-
+  
 //declaring a state as empty array
 function rootReducer(state = [], action) { 
   switch (action.type) {

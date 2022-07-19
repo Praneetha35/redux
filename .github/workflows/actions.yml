@@ -33,5 +33,4 @@ jobs:
           
       - name: Install
         run: npm i --legacy-peer-deps
-      - name: Test
-        run: npm test
+
